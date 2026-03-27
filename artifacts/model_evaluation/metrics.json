@@ -1,0 +1,105 @@
+{
+    "NR-AR": {
+        "roc_auc": 0.7619,
+        "pr_auc": 0.474,
+        "accuracy": 0.9388,
+        "f1_score": 0.3803,
+        "n_test": 1439,
+        "n_pos": 61
+    },
+    "NR-AR-LBD": {
+        "roc_auc": 0.8561,
+        "pr_auc": 0.6089,
+        "accuracy": 0.963,
+        "f1_score": 0.5,
+        "n_test": 1353,
+        "n_pos": 42
+    },
+    "NR-AhR": {
+        "roc_auc": 0.9182,
+        "pr_auc": 0.7377,
+        "accuracy": 0.8845,
+        "f1_score": 0.6326,
+        "n_test": 1307,
+        "n_pos": 167
+    },
+    "NR-Aromatase": {
+        "roc_auc": 0.853,
+        "pr_auc": 0.4401,
+        "accuracy": 0.8643,
+        "f1_score": 0.2765,
+        "n_test": 1157,
+        "n_pos": 46
+    },
+    "NR-ER": {
+        "roc_auc": 0.7908,
+        "pr_auc": 0.5264,
+        "accuracy": 0.8041,
+        "f1_score": 0.4382,
+        "n_test": 1230,
+        "n_pos": 152
+    },
+    "NR-ER-LBD": {
+        "roc_auc": 0.8653,
+        "pr_auc": 0.5806,
+        "accuracy": 0.9184,
+        "f1_score": 0.4378,
+        "n_test": 1385,
+        "n_pos": 70
+    },
+    "NR-PPAR-gamma": {
+        "roc_auc": 0.8869,
+        "pr_auc": 0.3294,
+        "accuracy": 0.9116,
+        "f1_score": 0.2098,
+        "n_test": 1279,
+        "n_pos": 25
+    },
+    "SR-ARE": {
+        "roc_auc": 0.8469,
+        "pr_auc": 0.58,
+        "accuracy": 0.8132,
+        "f1_score": 0.5163,
+        "n_test": 1194,
+        "n_pos": 170
+    },
+    "SR-ATAD5": {
+        "roc_auc": 0.902,
+        "pr_auc": 0.4117,
+        "accuracy": 0.9006,
+        "f1_score": 0.3578,
+        "n_test": 1408,
+        "n_pos": 58
+    },
+    "SR-HSE": {
+        "roc_auc": 0.8094,
+        "pr_auc": 0.4589,
+        "accuracy": 0.867,
+        "f1_score": 0.332,
+        "n_test": 1301,
+        "n_pos": 74
+    },
+    "SR-MMP": {
+        "roc_auc": 0.9276,
+        "pr_auc": 0.7563,
+        "accuracy": 0.8923,
+        "f1_score": 0.7,
+        "n_test": 1170,
+        "n_pos": 179
+    },
+    "SR-p53": {
+        "roc_auc": 0.9085,
+        "pr_auc": 0.5311,
+        "accuracy": 0.8828,
+        "f1_score": 0.446,
+        "n_test": 1357,
+        "n_pos": 84
+    },
+    "__summary__": {
+        "mean_roc_auc": 0.8606,
+        "mean_pr_auc": 0.5363,
+        "mean_accuracy": 0.8867,
+        "mean_f1": 0.4356,
+        "n_targets": 12
+    }
+}

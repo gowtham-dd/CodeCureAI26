@@ -1,0 +1,50 @@
+model_training:
+  n_splits: 5           # StratifiedKFold splits
+  test_size: 0.2
+  random_state: 42
+
+  random_forest:
+    n_estimators: 200
+    max_depth: null       # None = unlimited
+    min_samples_leaf: 2
+    class_weight: balanced
+    n_jobs: -1
+    random_state: 42
+
+  xgboost:
+    n_estimators: 300
+    max_depth: 6
+    learning_rate: 0.05
+    subsample: 0.8
+    colsample_bytree: 0.8
+    eval_metric: auc
+    tree_method: hist
+    random_state: 42
+    n_jobs: -1
+    verbosity: 0
+
+  lightgbm:
+    n_estimators: 300
+    max_depth: 6
+    learning_rate: 0.05
+    subsample: 0.8
+    colsample_bytree: 0.8
+    num_leaves: 63
+    min_child_samples: 10
+    n_jobs: -1
+    random_state: 42
+    verbose: -1
+
+  meta_learner:
+    C: 1.0
+    class_weight: balanced
+    max_iter: 1000
+
+feature_engineering:
+  morgan_radius: 2
+  morgan_bits: 2048
+  rdkit_fp_bits: 2048
+  torsion_bits: 256
+  n_descriptors: 200
+  variance_threshold: 0.01
+  clip_value: 10.0
